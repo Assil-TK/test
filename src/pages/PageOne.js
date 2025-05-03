@@ -13,7 +13,21 @@ function PageOne() {
         style={{ width: "300px", height: "auto", marginBottom: "20px" }}
       />
       <br />
-      <button onClick={() => navigate("/page-two")}>Go to Page 2</button>
+      <button onClick={() => navigate("/page-two")}>Go to Page Two</button>
+      <br /><br />
+      <button
+        onClick={() => navigate("/page-two")}
+        style={{
+          backgroundColor: "green",
+          color: "white",
+          padding: "10px 20px",
+          border: "none",
+          borderRadius: "5px",
+          cursor: "pointer",
+        }}
+      >
+        Button 2
+      </button>
     </div>
   );
 }
