@@ -8,7 +8,7 @@ function PageOne() {
     <div style={{ padding: "20px", textAlign: "center" }}>
       <h1>Page One</h1>
       <img
-        src="/image/logo192.png"  // Correct path to the image in public/images
+        src="/image/logo192.png"
         alt="Page One"
         style={{ width: "300px", height: "auto", marginBottom: "20px" }}
       />
@@ -18,7 +18,7 @@ function PageOne() {
       <button
         onClick={() => navigate("/page-two")}
         style={{
-          backgroundColor: "green",
+          backgroundColor: "red",
           color: "white",
           padding: "10px 20px",
           border: "none",
