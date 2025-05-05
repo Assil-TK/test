@@ -2,7 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import myImage from "../assets/logo192.png";
 
-
 function PageOne() {
   const navigate = useNavigate();
 
@@ -14,14 +13,22 @@ function PageOne() {
         alt="Page One"
         style={{ width: "300px", height: "auto", marginBottom: "20px" }}
       />
-
       <br />
-      <button onClick={() => navigate("/page-two")}>Go to Page Two</button>
+      <button onClick={() => navigate("/page-two")} style={{
+        backgroundColor: "#1B374C",
+        color: "white",
+        padding: "10px 20px",
+        border: "none",
+        borderRadius: "5px",
+        cursor: "pointer",
+      }}>
+        Go to Page Two
+      </button>
       <br /><br />
       <button
         onClick={() => navigate("/page-two")}
         style={{
-          backgroundColor: "red",
+          backgroundColor: "green",
           color: "white",
           padding: "10px 20px",
           border: "none",
