@@ -28,7 +28,7 @@ function PageOne() {
       <button
         onClick={() => navigate("/page-two")}
         style={{
-          backgroundColor: "green",
+          backgroundColor: "#1B374C",
           color: "white",
           padding: "10px 20px",
           border: "none",
