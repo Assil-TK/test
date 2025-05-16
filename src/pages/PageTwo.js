@@ -11,7 +11,7 @@ function PageTwo() {
         className="btn btn-primary" // Bootstrap button class
         onClick={() => navigate("/")}
       >
-        Go to Page One
+        Go to Page 1
       </button>
     </div>
   );
