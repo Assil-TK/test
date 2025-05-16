@@ -1,5 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { Button } from "@mui/material";
+import { styled } from "@mui/system";
+
+const RedButton = styled(Button)({
+  backgroundColor: 'red',
+  '&:hover': {
+    backgroundColor: '#F39325',
+  },
+});
 
 function PageTwo() {
   const navigate = useNavigate();
@@ -7,12 +16,12 @@ function PageTwo() {
   return (
     <div style={{ padding: "20px", textAlign: "center" }}>
       <h1>Page Two</h1>
-      <button
-        className="btn btn-primary" // Bootstrap button class
+      <RedButton
+        variant="contained"
         onClick={() => navigate("/")}
       >
         Go to Page 1
-      </button>
+      </RedButton>
     </div>
   );
 }
