@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 import { styled } from "@mui/system";
 
 const RedButton = styled(Button)({
-  backgroundColor: 'red',
+  backgroundColor: 'blue',
   '&:hover': {
     backgroundColor: '#F39325',
   },
