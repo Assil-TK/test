@@ -57,7 +57,7 @@ const HealthyFoodPage = () => {
             } else {
               imageSrc = fishAndChips;
               productName = 'Fish and Chips';
-              productDescription = 'Traditional British dish with crispy fish and a prio娱乐场 fish and chips with tomato salad recipe.ty and macaroni.';
+              productDescription = 'Traditional British dish with crispy fish and chips with tomato salad ';
             }
             return (
               <Grid item xs={12} sm={6} md={4} key={item}>
