@@ -49,7 +49,7 @@ const HealthyFoodPage = () => {
             if (item === 1) {
               imageSrc = orangeJuice;
               productName = 'Orange Juice';
-              productDescription = 'Fresh and orange-flavored, 100% juice!';
+              productDescription = 'Fresh and orange-flavored, 100% juice !';
             } else if (item === 2) {
               imageSrc = italianSalad;
               productName = 'Italian Salad';
